@@ -25,52 +25,52 @@ const HeaderComponent = () => {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
-            <li className="text-md  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white  transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100   lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white  transition-all ease-in-out duration-300">
               <a href="#">HOME</a>
             </li>
-            <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
               <a href="#skills">SKILLS</a>
             </li>
-            <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
               <a href="#portfolio">PORTFOLIO</a>
             </li>{" "}
-            <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
               <a href="#why-me">WHY ME</a>
             </li>{" "}
-            <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
               <a href="#testimonials1">TESTIMONIAL 1</a>
             </li>{" "}
-            <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
               <a href="#testimonials2">TESTIMONIAL 2</a>
             </li>
-            <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+            <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
               <a href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Aretas</a>
+        <a className="btn btn-ghost text-slate-100 text-xl">Aretas</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#">HOME</a>
           </li>
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#skills">SKILLS</a>
           </li>
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#portfolio">PORTFOLIO</a>
           </li>{" "}
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#why-me">WHY ME</a>
           </li>{" "}
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#testimonials1">TESTIMONIAL 1</a>
           </li>{" "}
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#testimonials2">TESTIMONIAL 2</a>
           </li>{" "}
-          <li className="text-md lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
+          <li className="text-md text-slate-100  lg:text-lg hover:bg-rose-600 rounded-sm hover:text-white transition-all ease-in-out duration-300">
             <a href="#contact">CONTACT</a>
           </li>
         </ul>

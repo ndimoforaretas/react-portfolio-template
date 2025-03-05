@@ -15,7 +15,7 @@ const TestimonialsComponent = () => {
                   fill="currentColor"></path>
               </svg>
               <blockquote>
-                <p className="text-xl font-medium  md:text-2xl ">
+                <p className="text-xl text-slate-900 dark:text-slate-100 font-medium text-slate-900 dark:text-slate-100  md:text-2xl ">
                   "Landwind is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application."
@@ -28,7 +28,9 @@ const TestimonialsComponent = () => {
                   alt="profile picture"
                 />
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium">Micheal Gough</div>
+                  <div className="pr-3 font-medium text-slate-900 dark:text-slate-100">
+                    Micheal Gough
+                  </div>
                   <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
                     CEO at Google
                   </div>
@@ -58,7 +60,7 @@ const TestimonialsComponent = () => {
                   fill="currentColor"></path>
               </svg>
               <blockquote>
-                <p className="text-xl font-medium  md:text-2xl ">
+                <p className="text-xl text-slate-900 dark:text-slate-100 font-medium text-slate-900 dark:text-slate-100  md:text-2xl ">
                   "Landwind is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application."
@@ -71,7 +73,9 @@ const TestimonialsComponent = () => {
                   alt="profile picture"
                 />
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium">Micheal Gough</div>
+                  <div className="pr-3 font-medium text-slate-900 dark:text-slate-100">
+                    Micheal Gough
+                  </div>
                   <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
                     CEO at Google
                   </div>
@@ -101,7 +105,7 @@ const TestimonialsComponent = () => {
                   fill="currentColor"></path>
               </svg>
               <blockquote>
-                <p className="text-xl font-medium  md:text-2xl ">
+                <p className="text-xl text-slate-900 dark:text-slate-100 font-medium text-slate-900 dark:text-slate-100  md:text-2xl ">
                   "Landwind is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application."
@@ -114,7 +118,9 @@ const TestimonialsComponent = () => {
                   alt="profile picture"
                 />
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium">Micheal Gough</div>
+                  <div className="pr-3 font-medium text-slate-900 dark:text-slate-100">
+                    Micheal Gough
+                  </div>
                   <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
                     CEO at Google
                   </div>
@@ -144,7 +150,7 @@ const TestimonialsComponent = () => {
                   fill="currentColor"></path>
               </svg>
               <blockquote>
-                <p className="text-xl font-medium  md:text-2xl ">
+                <p className="text-xl text-slate-900 dark:text-slate-100 font-medium text-slate-900 dark:text-slate-100  md:text-2xl ">
                   "Landwind is just awesome. It contains tons of predesigned
                   components and pages starting from login screen to complex
                   dashboard. Perfect choice for your next SaaS application."
@@ -157,7 +163,9 @@ const TestimonialsComponent = () => {
                   alt="profile picture"
                 />
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                  <div className="pr-3 font-medium">Micheal Gough</div>
+                  <div className="pr-3 font-medium text-slate-900 dark:text-slate-100">
+                    Micheal Gough
+                  </div>
                   <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
                     CEO at Google
                   </div>

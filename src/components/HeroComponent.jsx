@@ -31,6 +31,7 @@ const HeroComponent = () => {
           <p className="py-6 text-lg text-slate-600 dark:text-slate-400">
             Contact me on social media:
           </p>
+          {/* icons div */}
           <div className="flex items-center justify-start gap-4">
             <a
               href="#"

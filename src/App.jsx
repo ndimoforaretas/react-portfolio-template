@@ -15,57 +15,83 @@ function App() {
   const { isDarkMode } = useContext(DarkModeContext);
   return (
     <>
+      {/* Header Component for navigation*/}
       <HeaderComponent />
+
+      {/* Main section for the rest of the sub sections */}
       <main className={isDarkMode ? "dark" : ""}>
+        {/* Hero section */}
         <section>
           <HeroComponent />
         </section>
+        {/*  */}
+        {/* Simple horizontal line */}
         <hr className="border-1 dark:border-slate-950 border-gray-700  dark:block" />
+        {/*  */}
+        {/* Skills section */}
         <section
           id="skills"
           className="py-16 bg-slate-300 dark:bg-slate-900 min-h-screen flex flex-col items-center justify-around ">
+          {/* this section title is a reusable component */}
           <SectionTitle text="My Skills" />
+
           <div className="container mx-auto">
             <SkillsComponent />
           </div>
         </section>
+        {/* Simple horizontal line */}
         <hr className="border-1 dark:border-slate-950 border-gray-700  dark:block" />
+        {/* Portfolio section */}
         <section
           id="portfolio"
-          className=" py-16 bg-slate-300 min-h-screen flex flex-col items-center justify-around mb-20">
+          className=" py-16 bg-slate-300  dark:bg-slate-900  min-h-screen flex flex-col items-center justify-around ">
           <SectionTitle text="Portfolio" />
           <div className="container mx-auto">
             <ProjectsComponent />
           </div>
-        </section>{" "}
+        </section>
+        {/* Simple horizontal line */}
+        <hr className="border-1 dark:border-slate-950 border-gray-700  dark:block" />
+        {/* Why Me section */}
         <section
           id="why-me"
-          className=" pt-16 pb-4 bg-base-300 min-h-[50vh] flex flex-col items-center justify-around">
+          className=" bg-slate-300  dark:bg-slate-900  py-16 pb-4 min-h-[50vh] flex flex-col items-center justify-around">
           <SectionTitle text="Why Me?" />
 
           <WhyMeComponent />
-        </section>{" "}
+        </section>
+        {/* Simple horizontal line */}
+        <hr className="border-1 dark:border-slate-950 border-gray-700  dark:block" />
+        {/* Testimonials section Sample 1*/}
         <section
           id="testimonials1"
-          className="container mx-auto pt-16 pb-4 bg-base-100 min-h-[50vh] flex flex-col items-center justify-around mb-20">
+          className=" py-16 bg-slate-300  dark:bg-slate-900 min-h-[50vh] flex flex-col items-center justify-around ">
           <SectionTitle text="Testimonial" />
+          <div className="container mx-auto">
+            <TestimonialsComponent />
+          </div>
+        </section>
 
-          <TestimonialsComponent />
-        </section>{" "}
+        {/* Simple horizontal line */}
+        <hr className="border-1 dark:border-slate-950 border-gray-700  dark:block" />
+        {/* Testimonials section Sample 2*/}
         <section
           id="testimonials2"
-          className="py-16 bg-base-300 min-h-[50vh] flex flex-col items-center justify-around mb-20">
+          className="py-16 bg-slate-300  dark:bg-slate-900 min-h-[50vh] flex flex-col items-center justify-around">
           <SectionTitle text="From Satisfied Customers" />
           <div className="container mx-auto">
             <Testimonial2Component />
           </div>
-        </section>{" "}
+        </section>
+        {/* Simple horizontal line */}
+        <hr className="border-1 dark:border-slate-950 border-gray-700  dark:block" />
         <section
           id="contact"
-          className="container mx-auto pt-16 pb-4 bg-base-100 flex flex-col items-center justify-around">
+          className=" py-16  bg-slate-300  dark:bg-slate-900 flex flex-col items-center justify-around">
           <SectionTitle text="Contact" />
-
-          <ContactComponent />
+          <div className="container mx-auto">
+            <ContactComponent />
+          </div>
         </section>
       </main>
       <FooterComponent />
